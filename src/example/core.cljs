@@ -6,4 +6,7 @@
   "Cruel No More")
 
 (js/console.log (what-kind?))
-(println hello)
+
+(enable-console-print!)
+
+(println "I'm in the console too!")
