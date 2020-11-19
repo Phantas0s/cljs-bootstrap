@@ -1,0 +1,7 @@
+; see https://clojurescript.org/reference/compiler-options
+
+^{:css-dirs ["resources/public/css"]}
+{:main          example.core
+ :optimizations :none
+ :output-to     "resources/public/main.js"
+ :output-dir    "resources/public/main.out"}

@@ -1,0 +1,10 @@
+{:path ["src" "resources"]
+ :aliases {:dev {:extra-deps {org.clojure/clojurescript {:mvn/version "1.10.764"}
+                              com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
+                              nrepl/nrepl {:mvn/version "0.7.0"}
+                              cider/cider-nrepl {:mvn/version "0.25.0-alpha1"}
+                              cider/piggieback {:mvn/version "0.5.0"}
+                              com.bhauman/figwheel-main {:mvn/version "0.2.12"}}
+                 :main-opts ["dev.clj"]
+                 :jvm-opts ["-Xmx1g"]}
+           :prod {:main-opts ["prod.clj"]}}}

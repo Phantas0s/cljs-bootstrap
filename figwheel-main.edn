@@ -1,0 +1,4 @@
+; see https://github.com/bhauman/figwheel-main/blob/master/doc/figwheel-main-options.md
+
+{:ring-server-options {:port 8888}
+ :open-url "http://[[server-hostname]]:[[server-port]]"}
